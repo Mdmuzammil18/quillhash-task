@@ -1,0 +1,243 @@
+body {
+    font-family: 'Lato', sans-serif !important;
+}
+
+.main-head {
+    background-color:#2D6DCD;
+    text-align: center;
+    max-height: 491px;
+}
+.nav-items {
+    justify-content: center;
+    color: #ffffff;
+}
+.nav-link {
+    color: #ffffff;
+    font-family: l;
+    font-family: 'Lato', sans-serif !important;
+}
+.logo2 {
+    width: 100px;
+    height: 15px;
+    padding: 0 0 0 0.5rem;
+}
+.profile {
+    width:40px;
+    height: 40px;
+}
+
+.bg-logo{
+    height: 520px;
+    width: 500px;
+}
+.heading-section {
+    position: relative;
+    z-index: 1;
+    bottom: 33.75rem;
+    color: #ffffff;
+}
+.heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 6.25rem 0 0 0;
+}
+.sub-heading {
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 1rem 0 0 0;
+}
+.input-field {
+    justify-content: center;
+    width: 25%;
+    border: 1px solid #8AA7D0 !important;
+    height: 2.8rem;
+    margin: 2.5rem 1rem 0 0;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.submit-btn {
+    border: none;
+    height: 2.8rem;
+}
+
+.table {
+    position: relative;
+    z-index: 1;
+    bottom: 150px;
+    background-color: white;
+    box-shadow: 4px 3px 15px -2px grey;
+}
+.maintable{
+    width: 80%;
+    margin: auto;
+}
+.timg{
+    margin-right: 6px;
+}
+td{
+    color: gray;
+}
+.changes{
+    color:green;
+}
+.buy{
+color: #75b473;
+    border: none;
+    width: 60px;
+    font-size: 12px;
+   font-weight: 600;
+   height: 30px;
+   background-color:#E8F8F5;
+}
+th{
+    background-color:#bbe1fa;
+    color: blue;
+}
+.down{
+    color: blue;
+    position: relative;
+    z-index: 1;
+    bottom: 180px;
+    margin-left:50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both
+  }
+  
+  .column-66 {
+    float: left;
+    width: 50%;
+    padding: 20px;
+  }
+  .column-33 {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    height: 20%;
+  }
+  
+  .large-font {
+    font-size: 48px;
+  }
+  .xlarge-font {
+    font-size: 64px
+  }
+  
+ .invite{
+     background-color: blue;
+     border: none;
+     color: white;
+    width: 120px;
+    height: 60px;
+ }
+ .referal{
+    width:445px;
+     height:300px;
+     bottom: 60px;
+     position: relative;
+ }
+ .column-35 {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    height: 100%;
+  }
+  .column-67{
+      color: white;
+  }
+.portfolio{
+   background-color:#2D6DCD;
+  -ms-transform: skewY(20deg);
+  transform: skewY(170deg);
+  height: 1000px;
+  margin: 90px 0px 0px ;
+ 
+}
+ .circle{
+     font-size: xx-large;
+ }
+ .paragraph{
+    color:white;
+ }
+  .fullprotofolio{
+  bottom: 850px;
+  position: relative;
+transform: skewY(360deg);
+  }
+  .portfolio-head {
+      margin: 0 0 2rem 2rem;
+      font-weight: bold;
+  }
+  .group{
+      bottom: 600px;  
+      position: relative;
+  }
+  .column-34 {
+    float: left;
+    margin-top: 150px;
+    height: 100%;
+  }
+  .maingroup{
+      margin-top: 100px;
+  }
+   .bankaccount{
+    bottom: 500px;  
+    position: relative;
+    background-color:#2D6DCD;
+    color: white;
+padding: 80px;
+  }
+
+  .bank{
+    display: flex;
+    justify-content: center;
+  }
+
+  .bankimg{
+    padding: 80px;
+  }
+
+  .fig1{
+    border-top: 5px solid white;
+    position: relative;
+    bottom: 157px;
+    left: 261px;
+    width: 137px; 
+  }
+  .referal2 {
+    bottom: 400px;
+    position: relative;
+  }
+  .footer-copyright{
+    background-color:#2D6DCD;
+    color: thistle;
+  }
+  .foot{
+    padding: 80px;
+  }
+  .page-footer{
+    background-color:#eff7fd;
+    position: relative;
+    bottom: 400px;
+  }
+  .connect{
+   margin-top: 62px;
+  }
+  .product{
+    color: gray;
+  }
+
+@media only screen and (max-width: 600px) {
+     .bg-logo{
+      width: 270px;
+      height: 270px;
+    }
+  }
